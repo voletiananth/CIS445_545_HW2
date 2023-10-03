@@ -1,23 +1,31 @@
-body{
+﻿body,html{
     width: 100%;
     height: 100%;
     overflow: hidden;
 }
-.right{
-    float: right;
-    width: 50%;
-   
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 
 }
-.left{
-    float: left;
-    width: 50%;
-   
+
+#container .right, #container .left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 
 .right #image{
-    width: 35%;
+    width: 50%;
     border-radius: 50% ;
     box-shadow: 1px 1px 1px 1px #1111;
+    display: block;
+  
 }
