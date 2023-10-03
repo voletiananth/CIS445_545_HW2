@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.right{
+    float: right;
+    width: 50%;
+   
+
+}
+.left{
+    float: left;
+    width: 50%;
+   
+}
+
+
+.right #image{
+    width: 35%;
+    border-radius: 50% ;
+    box-shadow: 1px 1px 1px 1px #1111;
+}
